@@ -32,4 +32,5 @@ Discover insights, trends, and percentiles for American students in globally rec
 
 ## 🌌 USA in International Olympiad on Astronomy and Astrophysics (IOAA) Percentile
 ![USA IOAA Percentile](assets/usa_ioaa_percentile.png)
-# USAs_Performance_in_Science_Olympiads
+
+
