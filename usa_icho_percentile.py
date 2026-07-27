@@ -116,7 +116,7 @@ best_year = df.loc[df["Percentile"].idxmax()]
 plt.annotate(
     f"\U0001f3c6 Historic Peak!\nRank {int(best_year['Rank'])} of {int(best_year['Total_Countries'])}\n({best_year['Percentile']:.0f}th Percentile)",
     xy=(best_year["Year"], best_year["Percentile"]),
-    xytext=(best_year["Year"] - 5, best_year["Percentile"] - 6),
+    xytext=(best_year["Year"] - 5, best_year["Percentile"]),
     arrowprops=dict(
         facecolor="#e74c3c", arrowstyle="->", connectionstyle="arc3,rad=-0.1"
     ),
